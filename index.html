@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vishal Joshi - Python Developer, FastAPI Learner and AI/ML Enthusiast.">
+    <title>Vishal Joshi | Python Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="assets/20260108_140149.png" alt="navbar-logo" class="logo">
+            <ul class="sidemenu" id="sidemenu">
+                <li><a href="#header" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
+                <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                 <i class="fas fa-times close-icon" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fas fa-bars menu-icon" onclick="openMenu()"></i>
+           
+        </nav>
+    <div class="header-content">
+        <div class="header-text">
+            <h6>Hello...</h6>
+            <h1>Meet Vishal Joshi</h1>
+            <h6>I'm a <span>python Developer</span></h6>
+            <p>"Python developer with a strong interest in software development & <br> problem solving.<br> 
+                Always Exploring new technologies to create better and <br>smarter solutions. dedicated to learning, building, and growing every day."</p>
+            <div class="social-icons">
+                <p><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 8619449822</p><br>
+                     <a href="https://www.instagram.com/vishal_joshi_uthnol_09?igsh=MXd6MDZmZTY3MmpyOQ==" aria-label="Visit Vishal's Instagram">
+                          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                     </a>
+                     <a href="https://www.snapchat.com/add/vishal_joshi577?share_id=k21rmNCcHyQ&locale=en-IN" aria-label="Add Vishal on Snapchat">
+                            <i class="fa-brands fa-snapchat" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://wa.me/918619449822" aria-label="Message Vishal on WhatsApp">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>  
+        </div>
+        <div class="profile-photo">
+             <img src="assets/vishal.jpg" alt="Vishal Joshi">
+        </div>
+    </div>
+    
+    </div>
+   </div>
+
+
+<!-- about section -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/1749144892959.jpg" alt="Vishal joshi" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me : </h1>
+                <p>"I am a BCA student and aspiring Python Developer driven by curiosity and a passion for technology. I enjoy turning ideas into real-world applications through clean code and creative problem-solving. With a strong foundation in programming and continuous learning, I am building the skills needed to create impactful software solutions. My goal is to grow as a developer and contribute to innovative projects that make a difference."</p>
+                <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills', this)">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience', this)">Experience</p>
+                            <p class="tab-links" onclick="opentab('education', this)">Education</p>
+                </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><i class="fa-solid fa-laptop-code"></i> &nbsp;<span>Programming language</span><br>c/ c++/ java/ Python/ c#/ HTML/ CSS/ React.js/ JavaScript/ MySQL</li>
+                            <li><i class="fa-solid fa-brain"></i> &nbsp;<span>Master skill</span><br>Python programming / Numpy / Pandas / fastapi/ Django </li>
+                            <li><i class="fa-solid fa-Database"></i> &nbsp;<span>Data base</span><br>MY-SQl / DSA in c++ and python</li>
+                            <li><i class="fa-solid fa-lightbulb"></i> &nbsp;<span>Core Concepts</span><br>Object-Oriented Programming (oop) / file handling / Problem solving with python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><i class="fa-solid fa-graduation-cap"></i> &nbsp;<span>Fresher</span><br>As a student, I have built several personal projects including: <br><i class="fa-solid fa-caret-right"></i> voice assistant <br>
+                                <i class="fa-solid fa-caret-right"></i> Atm system 
+                                <br> <i class="fa-solid fa-caret-right"></i> to-do-list system 
+                                <br><i class="fa-solid fa-caret-right"></i> pneumonia detection system 
+                                <br><i class="fa-solid fa-caret-right"></i>  number chasing game 
+                                <br><i class="fa-solid fa-caret-right"></i> sneak_water_gun_game 
+                                <br><i class="fa-solid fa-caret-right"></i> monthly expenses calculate system 
+                                <br><i class="fa-solid fa-caret-right"></i> Auto Business Accounting System 
+                                <br>and more.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><i class="fa-solid fa-user-graduate"></i>&nbsp;<span>12th</span><br>Rajasthan Board of Secondary Education, ajmer</li>
+                            <li><i class="fa-solid fa-graduation-cap"></i> &nbsp;<span>Graduation</span><br>Mohanlal sukhadiya university, Udaipur</li>
+                            <li><i class="fa-solid fa-medal"></i> &nbsp;<span>Rajasthan State Certificate in Information Technology</span><br>vardhman mahaveer open university, Cota</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- services section -->
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Focus Areas: </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Development</h2>
+                <p>
+                   Building efficient applications and solving real-world problems using Python with clean and scalable code.
+                </p>
+            </div>
+             <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>🚀 Backend Systems with FastAPI</h2>
+                <p>
+                   Developing robust REST APIs and backend systems using FastAPI, Database, and modern development practices.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>🧠 AI & ML Journey</h2>
+                <p>
+                  Learning and applying AI/ML concepts to build smart and innovative solutions.
+                </p>
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+
+ <!-- portfolio section -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">ADVANCED PROJECTS : </h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="assets/Screenshot 2026-06-17 124807.png" alt="vishal-gallery">
+                <div class="layer">
+                    <h3>Voice Assistant</h3>
+                    <p>Technologies Used: python,functions, API's, some python libraris etc. <br>for more Information contact me.</p>
+                    <a href="#contact"><i class="fa-solid fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/Screenshot 2026-06-17 125313.png" alt="vishal-gallery">
+                <div class="layer">
+                    <h3>pneumonia detection system</h3>
+                    <p>backend: python fast API, SQL Databse, Hugging Face Transformers, etc.<br>for more Information contact me.</p>
+                    <a href="#contact"><i class="fa-solid fa-external-link-alt"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="assets/Screenshot 2026-06-17 125032.png" alt="vishal-gallery" >
+                <div class="layer">
+                    <h3>AUTO-ACCOUNTING</h3>
+                    <p>using core python concepts and logic project based on telly erp 9 <br>for more information contact me.</p>
+                    <a href="#contact"><i class="fa-solid fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- gallery section -->
+
+ <div id="gallery">
+    <div class="container gallery-container swiper">
+        <h1 class="sub-title">Gallery</h1>
+         <div class="photo-section">
+            <div class="photo-grid">
+                <img src="assets/1741261045578.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 0)" loading="lazy">
+                <img src="assets/1741543789083.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 1)" loading="lazy">
+                <img src="assets/1749144892959.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 2)" loading="lazy">
+                <img src="assets/vi.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 3)" loading="lazy">
+                <img src="assets/v.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 4)" loading="lazy">
+                <img src="assets/vi.jpg" alt="Photo from Vishal's library" onclick="openImg(this.src, 5)" loading="lazy">
+            </div>
+            </div>
+        <div class="fullscreen" id="fullscreen">
+            <span class="close" onclick="closeImg()">&times;</span>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <img id="fullImg" alt="Fullscreen view of selected image">
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div> 
+    </div>
+ </div>
+
+  <!-- contact section -->
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope" aria-hidden="true"></i>vj32053@gmail.com</p>
+                <p><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 8619449822</p>
+                <div class="social-icons">
+                     <a href="https://www.instagram.com/vishal_joshi_uthnol?igsh=MXd6MDZmZTY3MmpyOQ==" aria-label="Visit Vishal's Instagram">
+                          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                     </a>
+                     <a href="https://www.snapchat.com/add/vishal_joshi577?share_id=k21rmNCcHyQ&locale=en-IN" aria-label="Add Vishal on Snapchat">
+                            <i class="fa-brands fa-snapchat" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://wa.me/918619449822" aria-label="Message Vishal on WhatsApp">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <a href="assets/Professional Modern CV Resume (1).pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="enter your name" required>
+                    <input type="email" name="email" placeholder="enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="type your message"></textarea>
+                    <button type="submit" class="btn btn2 btn3">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="copyright">
+        <p>&copy; 2026 Vishal Joshi. All Rights Reserved. </p>
+    </div>
+  </footer>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyiBKbfKtVwu5-pGRyu98BmJfMGctdZgOAxI4N7i6xMr_3VsCr0DC7HXGh-7b1gw-MGcw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, element)
+    {
+        for (let tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        element.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>  
+
+
+<script>
+const images = document.querySelectorAll('.photo-grid img');
+let currentIndex = 0;
+function openImg(src , index)
+{
+   const modal = document.getElementById('fullscreen');
+   const modalImg = document.getElementById('fullImg');
+   modal.classList.add('active');
+   modalImg.src = src;
+   currentIndex = index;
+}
+
+function closeImg(){
+    const modal = document.getElementById('fullscreen');
+    modal.classList.remove('active');
+}
+
+window.onclick = function(event){
+    const modal = this.document.getElementById('fullscreen');
+    if (event.target == modal)
+    {
+        closeImg();
+    }
+}
+
+
+function changeSlide(direction) {
+    currentIndex = (currentIndex + direction + images.length) % images.length; // इंडेक्स अपडेट करें
+    document.getElementById('fullImg').src = images[currentIndex].src; // नई फोटो सेट करें
+}
+
+</script>
+
+<script>
+const sidemenu = document.getElementById("sidemenu");
+
+function openMenu(){
+    sidemenu.style.right = "0";
+}
+
+function closeMenu(){
+    sidemenu.style.right = "-250px";
+}
+</script>
+
+</body>
+</html>
