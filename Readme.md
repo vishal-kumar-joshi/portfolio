@@ -2,7 +2,7 @@
 
 A modern, responsive and visually appealing personal portfolio website built using **HTML, CSS, and JavaScript**.  
 This project showcases my skills, projects, and journey as a developer.
- 
+  
 ---
 
 ## 👨‍💻 About Me
