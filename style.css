@@ -127,8 +127,17 @@ nav ul li a:hover::after{
     height: 100%;
     object-fit: cover; 
     display: block;
+    border-radius: 50% !important
 }
 
+
+@media (max-width: 768px) {
+    .header-content .profile-photo {
+        width: 250px !important;
+        height: 250px !important;
+        margin: 20px auto !important;
+    }
+}
 
 
 /* about section */
