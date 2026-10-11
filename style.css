@@ -111,10 +111,10 @@ nav ul li a:hover::after{
     display: flex;
 }
 
-.header-content .profile-photo{
+.header-content img{
     position: relative;
-    width: min(25vw, 350px);
-    height: min(25vw, 350px);
+    width: min(52vw, 350px);
+    height: min(52vw, 350px);
     border: 2px solid #fff;
     border-radius: 50%;
     overflow: hidden;
