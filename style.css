@@ -111,7 +111,7 @@ nav ul li a:hover::after{
     display: flex;
 }
 
-.header-content img{
+.header-content .profile-photo{
     position: relative;
     width: min(52vw, 350px);
     height: min(52vw, 350px);
@@ -120,6 +120,14 @@ nav ul li a:hover::after{
     overflow: hidden;
     margin: 7% 120px;
    
+}
+
+.header-content img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    
 }
 
 /* about section */
